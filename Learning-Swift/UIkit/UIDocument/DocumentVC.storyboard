@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--DocumentVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DocumentVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="DocumentVC" customModule="Learning_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0Z-dn-3KD">
+                                <rect key="frame" x="15" y="259" width="363" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="AJC-4L-Ohr"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="EEf-FE-2o7"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Read Data"/>
+                                <connections>
+                                    <action selector="clickToReadData:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Vom-V7-11w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hL-Z4-thj">
+                                <rect key="frame" x="15" y="314" width="363" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Write Data"/>
+                                <connections>
+                                    <action selector="clickToWrite:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eDb-q2-pTo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRu-9R-Hu9">
+                                <rect key="frame" x="15" y="369" width="363" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="s0Z-dn-3KD" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="200" id="Crr-ss-qYA"/>
+                            <constraint firstItem="hRu-9R-Hu9" firstAttribute="top" secondItem="4hL-Z4-thj" secondAttribute="bottom" constant="20" id="D98-t4-b9b"/>
+                            <constraint firstItem="4hL-Z4-thj" firstAttribute="centerX" secondItem="s0Z-dn-3KD" secondAttribute="centerX" id="Dod-vH-XZZ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="hRu-9R-Hu9" secondAttribute="trailing" constant="15" id="RZC-3s-gf6"/>
+                            <constraint firstItem="s0Z-dn-3KD" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="WL2-rp-V8v"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="4hL-Z4-thj" secondAttribute="trailing" constant="15" id="X8R-a2-IZh"/>
+                            <constraint firstItem="hRu-9R-Hu9" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="kHu-rj-av4"/>
+                            <constraint firstItem="4hL-Z4-thj" firstAttribute="top" secondItem="s0Z-dn-3KD" secondAttribute="bottom" constant="20" id="lRZ-mQ-XXW"/>
+                            <constraint firstItem="4hL-Z4-thj" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="uEt-y3-1oG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="s0Z-dn-3KD" secondAttribute="trailing" constant="15" id="xR9-CR-1WM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logLab" destination="hRu-9R-Hu9" id="qej-wh-0wE"/>
+                        <outlet property="readBtn" destination="s0Z-dn-3KD" id="nHa-ZL-M3r"/>
+                        <outlet property="writeBtn" destination="4hL-Z4-thj" id="m27-Bd-KSP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="83" y="5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
