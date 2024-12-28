@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		33CEFF1C4C00FDE7D5EED1D9 /* Pods_Learning_OCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432DDC8E4BC66124C31D6A6C /* Pods_Learning_OCTests.framework */; };
-		92420DC65D3EF6050CF7041A /* Pods_Learning_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F132E8FF432CB8603248FF /* Pods_Learning_OC.framework */; };
-		93AFBC47E4A2B90A6C06E6D2 /* Pods_Learning_OC_Learning_OCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06211FF28BBADCF88D84DF59 /* Pods_Learning_OC_Learning_OCUITests.framework */; };
+		40C84FB10F450A5A7A3D469C /* Pods_CommonPods_Learning_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC4B58626016F2A23F9C9BB /* Pods_CommonPods_Learning_OC.framework */; };
+		9577E092ED062750560D27F2 /* Pods_CommonPods_Learning_OC_Learning_OCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB04166A6629F53212BAE34 /* Pods_CommonPods_Learning_OC_Learning_OCUITests.framework */; };
 		B5DA59122D1FB6D200044BBC /* Learning_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59102D1FB6D200044BBC /* Learning_OCTests.m */; };
 		B5DA59162D1FB6D200044BBC /* Learning_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59132D1FB6D200044BBC /* Learning_OCUITests.m */; };
 		B5DA59172D1FB6D200044BBC /* Learning_OCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59142D1FB6D200044BBC /* Learning_OCUITestsLaunchTests.m */; };
@@ -67,14 +67,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06211FF28BBADCF88D84DF59 /* Pods_Learning_OC_Learning_OCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learning_OC_Learning_OCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BC5628A10E407E801C3D6D /* Pods-Learning-OC-Learning-OCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OC-Learning-OCUITests.release.xcconfig"; path = "Target Support Files/Pods-Learning-OC-Learning-OCUITests/Pods-Learning-OC-Learning-OCUITests.release.xcconfig"; sourceTree = "<group>"; };
-		19F132E8FF432CB8603248FF /* Pods_Learning_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learning_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D270EB30B4372BD66262F00 /* Pods-CommonPods-Learning-OC-Learning-OCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-Learning-OC-Learning-OCUITests.release.xcconfig"; path = "Target Support Files/Pods-CommonPods-Learning-OC-Learning-OCUITests/Pods-CommonPods-Learning-OC-Learning-OCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BE065FF0D613EF28B071B32 /* Pods-CommonPods-Learning-OC-Learning-OCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-Learning-OC-Learning-OCUITests.debug.xcconfig"; path = "Target Support Files/Pods-CommonPods-Learning-OC-Learning-OCUITests/Pods-CommonPods-Learning-OC-Learning-OCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		432DDC8E4BC66124C31D6A6C /* Pods_Learning_OCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learning_OCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA42FE4B0489DD984B6B7E3 /* Pods-Learning-OC-Learning-OCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OC-Learning-OCUITests.debug.xcconfig"; path = "Target Support Files/Pods-Learning-OC-Learning-OCUITests/Pods-Learning-OC-Learning-OCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6511BD487A3C7E269C604B80 /* Pods-Learning-OCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OCTests.release.xcconfig"; path = "Target Support Files/Pods-Learning-OCTests/Pods-Learning-OCTests.release.xcconfig"; sourceTree = "<group>"; };
 		658A9D958063EE7634CE6761 /* Pods-Learning-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OC.release.xcconfig"; path = "Target Support Files/Pods-Learning-OC/Pods-Learning-OC.release.xcconfig"; sourceTree = "<group>"; };
+		6AB04166A6629F53212BAE34 /* Pods_CommonPods_Learning_OC_Learning_OCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonPods_Learning_OC_Learning_OCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		831D42D6066E087666C61B31 /* Pods-Learning-OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OCTests.debug.xcconfig"; path = "Target Support Files/Pods-Learning-OCTests/Pods-Learning-OCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9918E3A2B5E7D006FA09C41F /* Pods-CommonPods-Learning-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-Learning-OC.release.xcconfig"; path = "Target Support Files/Pods-CommonPods-Learning-OC/Pods-CommonPods-Learning-OC.release.xcconfig"; sourceTree = "<group>"; };
 		B5DA58B62D1FB66E00044BBC /* Learning-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DA58D42D1FB66F00044BBC /* Learning-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DA58DE2D1FB66F00044BBC /* Learning-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +148,9 @@
 		B5DA597E2D1FB7B500044BBC /* YYClassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
 		B5DA597F2D1FB7B500044BBC /* YYClassInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
 		B5DA59802D1FB7B500044BBC /* YYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		C9175DCC52005175774318F2 /* Pods-CommonPods-Learning-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-Learning-OC.debug.xcconfig"; path = "Target Support Files/Pods-CommonPods-Learning-OC/Pods-CommonPods-Learning-OC.debug.xcconfig"; sourceTree = "<group>"; };
 		D2BE8B383584EFF0F89170B1 /* Pods-Learning-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OC.debug.xcconfig"; path = "Target Support Files/Pods-Learning-OC/Pods-Learning-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		FEC4B58626016F2A23F9C9BB /* Pods_CommonPods_Learning_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonPods_Learning_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92420DC65D3EF6050CF7041A /* Pods_Learning_OC.framework in Frameworks */,
+				40C84FB10F450A5A7A3D469C /* Pods_CommonPods_Learning_OC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93AFBC47E4A2B90A6C06E6D2 /* Pods_Learning_OC_Learning_OCUITests.framework in Frameworks */,
+				9577E092ED062750560D27F2 /* Pods_CommonPods_Learning_OC_Learning_OCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +190,10 @@
 				17BC5628A10E407E801C3D6D /* Pods-Learning-OC-Learning-OCUITests.release.xcconfig */,
 				831D42D6066E087666C61B31 /* Pods-Learning-OCTests.debug.xcconfig */,
 				6511BD487A3C7E269C604B80 /* Pods-Learning-OCTests.release.xcconfig */,
+				C9175DCC52005175774318F2 /* Pods-CommonPods-Learning-OC.debug.xcconfig */,
+				9918E3A2B5E7D006FA09C41F /* Pods-CommonPods-Learning-OC.release.xcconfig */,
+				3BE065FF0D613EF28B071B32 /* Pods-CommonPods-Learning-OC-Learning-OCUITests.debug.xcconfig */,
+				1D270EB30B4372BD66262F00 /* Pods-CommonPods-Learning-OC-Learning-OCUITests.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -353,9 +361,9 @@
 		D6C84FE95B80AD8E51D1C0A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				19F132E8FF432CB8603248FF /* Pods_Learning_OC.framework */,
-				06211FF28BBADCF88D84DF59 /* Pods_Learning_OC_Learning_OCUITests.framework */,
 				432DDC8E4BC66124C31D6A6C /* Pods_Learning_OCTests.framework */,
+				FEC4B58626016F2A23F9C9BB /* Pods_CommonPods_Learning_OC.framework */,
+				6AB04166A6629F53212BAE34 /* Pods_CommonPods_Learning_OC_Learning_OCUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -530,7 +538,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Learning-OC-Learning-OCUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CommonPods-Learning-OC-Learning-OCUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -552,7 +560,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Learning-OC-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CommonPods-Learning-OC-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -565,15 +573,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Learning-OC/Pods-Learning-OC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-Learning-OC/Pods-CommonPods-Learning-OC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Learning-OC/Pods-Learning-OC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-Learning-OC/Pods-CommonPods-Learning-OC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Learning-OC/Pods-Learning-OC-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPods-Learning-OC/Pods-CommonPods-Learning-OC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ECEC99E95C1F17FB31E2C765 /* [CP] Embed Pods Frameworks */ = {
@@ -582,15 +590,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Learning-OC-Learning-OCUITests/Pods-Learning-OC-Learning-OCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-Learning-OC-Learning-OCUITests/Pods-CommonPods-Learning-OC-Learning-OCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Learning-OC-Learning-OCUITests/Pods-Learning-OC-Learning-OCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-Learning-OC-Learning-OCUITests/Pods-CommonPods-Learning-OC-Learning-OCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Learning-OC-Learning-OCUITests/Pods-Learning-OC-Learning-OCUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPods-Learning-OC-Learning-OCUITests/Pods-CommonPods-Learning-OC-Learning-OCUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -687,7 +695,7 @@
 /* Begin XCBuildConfiguration section */
 		B5DA58E82D1FB66F00044BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2BE8B383584EFF0F89170B1 /* Pods-Learning-OC.debug.xcconfig */;
+			baseConfigurationReference = C9175DCC52005175774318F2 /* Pods-CommonPods-Learning-OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -716,7 +724,7 @@
 		};
 		B5DA58E92D1FB66F00044BBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 658A9D958063EE7634CE6761 /* Pods-Learning-OC.release.xcconfig */;
+			baseConfigurationReference = 9918E3A2B5E7D006FA09C41F /* Pods-CommonPods-Learning-OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -899,7 +907,7 @@
 		};
 		B5DA58F02D1FB66F00044BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CA42FE4B0489DD984B6B7E3 /* Pods-Learning-OC-Learning-OCUITests.debug.xcconfig */;
+			baseConfigurationReference = 3BE065FF0D613EF28B071B32 /* Pods-CommonPods-Learning-OC-Learning-OCUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -916,7 +924,7 @@
 		};
 		B5DA58F12D1FB66F00044BBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17BC5628A10E407E801C3D6D /* Pods-Learning-OC-Learning-OCUITests.release.xcconfig */;
+			baseConfigurationReference = 1D270EB30B4372BD66262F00 /* Pods-CommonPods-Learning-OC-Learning-OCUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
