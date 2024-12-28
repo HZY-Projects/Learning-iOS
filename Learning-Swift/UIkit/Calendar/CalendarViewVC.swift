@@ -160,17 +160,3 @@ class CalendarViewVC: UIViewController, UICalendarViewDelegate, UICalendarSelect
     }
 
 }
-
-@available(iOS 17.0, *)
-//#Preview("2x2 grid", traits: .landscapeLeft) {
-//    CalendarViewVC()
-
-//@Previewable @State var isPlaying = true
-
-
-    // Pass it into your view.
-//    PlayButton(isPlaying: $isPlaying)
-//}
-#Preview {
-    CalendarViewVC()
-}
