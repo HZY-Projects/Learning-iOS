@@ -1,0 +1,989 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33CEFF1C4C00FDE7D5EED1D9 /* Pods_Learning_OCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432DDC8E4BC66124C31D6A6C /* Pods_Learning_OCTests.framework */; };
+		92420DC65D3EF6050CF7041A /* Pods_Learning_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F132E8FF432CB8603248FF /* Pods_Learning_OC.framework */; };
+		93AFBC47E4A2B90A6C06E6D2 /* Pods_Learning_OC_Learning_OCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06211FF28BBADCF88D84DF59 /* Pods_Learning_OC_Learning_OCUITests.framework */; };
+		B5DA59122D1FB6D200044BBC /* Learning_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59102D1FB6D200044BBC /* Learning_OCTests.m */; };
+		B5DA59162D1FB6D200044BBC /* Learning_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59132D1FB6D200044BBC /* Learning_OCUITests.m */; };
+		B5DA59172D1FB6D200044BBC /* Learning_OCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59142D1FB6D200044BBC /* Learning_OCUITestsLaunchTests.m */; };
+		B5DA59282D1FB6D200044BBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59192D1FB6D200044BBC /* AppDelegate.m */; };
+		B5DA59292D1FB6D200044BBC /* Learning_OC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5DA591E2D1FB6D200044BBC /* Learning_OC.xcdatamodeld */; };
+		B5DA592A2D1FB6D200044BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA591F2D1FB6D200044BBC /* main.m */; };
+		B5DA592B2D1FB6D200044BBC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59232D1FB6D200044BBC /* SceneDelegate.m */; };
+		B5DA592D2D1FB6D200044BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DA591A2D1FB6D200044BBC /* Assets.xcassets */; };
+		B5DA592F2D1FB6D200044BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DA591D2D1FB6D200044BBC /* LaunchScreen.storyboard */; };
+		B5DA59302D1FB6D200044BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DA59212D1FB6D200044BBC /* Main.storyboard */; };
+		B5DA59572D1FB75000044BBC /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DA59392D1FB75000044BBC /* SecondViewController.xib */; };
+		B5DA59582D1FB75000044BBC /* FirstSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59442D1FB75000044BBC /* FirstSubClass.m */; };
+		B5DA59592D1FB75000044BBC /* SecondClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59482D1FB75000044BBC /* SecondClass.m */; };
+		B5DA595A2D1FB75000044BBC /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA594A2D1FB75000044BBC /* TableViewCell.m */; };
+		B5DA595B2D1FB75000044BBC /* GetPathsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59512D1FB75000044BBC /* GetPathsOperation.m */; };
+		B5DA595C2D1FB75000044BBC /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59402D1FB75000044BBC /* CustomButton.m */; };
+		B5DA595D2D1FB75000044BBC /* LoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59532D1FB75000044BBC /* LoadOperation.m */; };
+		B5DA595E2D1FB75000044BBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA594E2D1FB75000044BBC /* ViewController.m */; };
+		B5DA595F2D1FB75000044BBC /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59552D1FB75000044BBC /* OperationViewController.m */; };
+		B5DA59602D1FB75000044BBC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59382D1FB75000044BBC /* SecondViewController.m */; };
+		B5DA59612D1FB75000044BBC /* UIButton+EdgeInset.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA594C2D1FB75000044BBC /* UIButton+EdgeInset.m */; };
+		B5DA59622D1FB75000044BBC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA593B2D1FB75000044BBC /* ThirdViewController.m */; };
+		B5DA59632D1FB75000044BBC /* CommonProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA593E2D1FB75000044BBC /* CommonProtocol.m */; };
+		B5DA59642D1FB75000044BBC /* FirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59422D1FB75000044BBC /* FirstClass.m */; };
+		B5DA59652D1FB75000044BBC /* NSObject+FirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59462D1FB75000044BBC /* NSObject+FirstClass.m */; };
+		B5DA59832D1FB7B500044BBC /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA596E2D1FB7B500044BBC /* MJPropertyKey.m */; };
+		B5DA59842D1FB7B500044BBC /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA596A2D1FB7B500044BBC /* MJFoundation.m */; };
+		B5DA59852D1FB7B500044BBC /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59762D1FB7B500044BBC /* NSObject+MJKeyValue.m */; };
+		B5DA59862D1FB7B500044BBC /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA597D2D1FB7B500044BBC /* NSObject+YYModel.m */; };
+		B5DA59872D1FB7B500044BBC /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA596C2D1FB7B500044BBC /* MJProperty.m */; };
+		B5DA59882D1FB7B500044BBC /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59702D1FB7B500044BBC /* MJPropertyType.m */; };
+		B5DA59892D1FB7B500044BBC /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59742D1FB7B500044BBC /* NSObject+MJCoding.m */; };
+		B5DA598A2D1FB7B500044BBC /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59782D1FB7B500044BBC /* NSObject+MJProperty.m */; };
+		B5DA598B2D1FB7B500044BBC /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59722D1FB7B500044BBC /* NSObject+MJClass.m */; };
+		B5DA598C2D1FB7B500044BBC /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA597A2D1FB7B500044BBC /* NSString+MJExtension.m */; };
+		B5DA598D2D1FB7B500044BBC /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA59682D1FB7B500044BBC /* MJExtensionConst.m */; };
+		B5DA598E2D1FB7B500044BBC /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA597F2D1FB7B500044BBC /* YYClassInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5DA58D52D1FB66F00044BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DA58AE2D1FB66E00044BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5DA58B52D1FB66E00044BBC;
+			remoteInfo = "Learning-OC";
+		};
+		B5DA58DF2D1FB66F00044BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DA58AE2D1FB66E00044BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5DA58B52D1FB66E00044BBC;
+			remoteInfo = "Learning-OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06211FF28BBADCF88D84DF59 /* Pods_Learning_OC_Learning_OCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learning_OC_Learning_OCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BC5628A10E407E801C3D6D /* Pods-Learning-OC-Learning-OCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OC-Learning-OCUITests.release.xcconfig"; path = "Target Support Files/Pods-Learning-OC-Learning-OCUITests/Pods-Learning-OC-Learning-OCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		19F132E8FF432CB8603248FF /* Pods_Learning_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learning_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		432DDC8E4BC66124C31D6A6C /* Pods_Learning_OCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learning_OCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA42FE4B0489DD984B6B7E3 /* Pods-Learning-OC-Learning-OCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OC-Learning-OCUITests.debug.xcconfig"; path = "Target Support Files/Pods-Learning-OC-Learning-OCUITests/Pods-Learning-OC-Learning-OCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6511BD487A3C7E269C604B80 /* Pods-Learning-OCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OCTests.release.xcconfig"; path = "Target Support Files/Pods-Learning-OCTests/Pods-Learning-OCTests.release.xcconfig"; sourceTree = "<group>"; };
+		658A9D958063EE7634CE6761 /* Pods-Learning-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OC.release.xcconfig"; path = "Target Support Files/Pods-Learning-OC/Pods-Learning-OC.release.xcconfig"; sourceTree = "<group>"; };
+		831D42D6066E087666C61B31 /* Pods-Learning-OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OCTests.debug.xcconfig"; path = "Target Support Files/Pods-Learning-OCTests/Pods-Learning-OCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5DA58B62D1FB66E00044BBC /* Learning-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DA58D42D1FB66F00044BBC /* Learning-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DA58DE2D1FB66F00044BBC /* Learning-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DA59102D1FB6D200044BBC /* Learning_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Learning_OCTests.m; sourceTree = "<group>"; };
+		B5DA59132D1FB6D200044BBC /* Learning_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Learning_OCUITests.m; sourceTree = "<group>"; };
+		B5DA59142D1FB6D200044BBC /* Learning_OCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Learning_OCUITestsLaunchTests.m; sourceTree = "<group>"; };
+		B5DA59182D1FB6D200044BBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5DA59192D1FB6D200044BBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5DA591A2D1FB6D200044BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5DA591B2D1FB6D200044BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DA591C2D1FB6D200044BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5DA591F2D1FB6D200044BBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5DA59202D1FB6D200044BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5DA59222D1FB6D200044BBC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B5DA59232D1FB6D200044BBC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B5DA59272D1FB6D200044BBC /* Learning_OC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Learning_OC.xcdatamodel; sourceTree = "<group>"; };
+		B5DA59372D1FB75000044BBC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B5DA59382D1FB75000044BBC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B5DA59392D1FB75000044BBC /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		B5DA593A2D1FB75000044BBC /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		B5DA593B2D1FB75000044BBC /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B5DA593D2D1FB75000044BBC /* CommonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonProtocol.h; sourceTree = "<group>"; };
+		B5DA593E2D1FB75000044BBC /* CommonProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonProtocol.m; sourceTree = "<group>"; };
+		B5DA593F2D1FB75000044BBC /* CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		B5DA59402D1FB75000044BBC /* CustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		B5DA59412D1FB75000044BBC /* FirstClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstClass.h; sourceTree = "<group>"; };
+		B5DA59422D1FB75000044BBC /* FirstClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstClass.m; sourceTree = "<group>"; };
+		B5DA59432D1FB75000044BBC /* FirstSubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstSubClass.h; sourceTree = "<group>"; };
+		B5DA59442D1FB75000044BBC /* FirstSubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstSubClass.m; sourceTree = "<group>"; };
+		B5DA59452D1FB75000044BBC /* NSObject+FirstClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+FirstClass.h"; sourceTree = "<group>"; };
+		B5DA59462D1FB75000044BBC /* NSObject+FirstClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FirstClass.m"; sourceTree = "<group>"; };
+		B5DA59472D1FB75000044BBC /* SecondClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondClass.h; sourceTree = "<group>"; };
+		B5DA59482D1FB75000044BBC /* SecondClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondClass.m; sourceTree = "<group>"; };
+		B5DA59492D1FB75000044BBC /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		B5DA594A2D1FB75000044BBC /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		B5DA594B2D1FB75000044BBC /* UIButton+EdgeInset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+EdgeInset.h"; sourceTree = "<group>"; };
+		B5DA594C2D1FB75000044BBC /* UIButton+EdgeInset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EdgeInset.m"; sourceTree = "<group>"; };
+		B5DA594D2D1FB75000044BBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5DA594E2D1FB75000044BBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5DA59502D1FB75000044BBC /* GetPathsOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetPathsOperation.h; sourceTree = "<group>"; };
+		B5DA59512D1FB75000044BBC /* GetPathsOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetPathsOperation.m; sourceTree = "<group>"; };
+		B5DA59522D1FB75000044BBC /* LoadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadOperation.h; sourceTree = "<group>"; };
+		B5DA59532D1FB75000044BBC /* LoadOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadOperation.m; sourceTree = "<group>"; };
+		B5DA59542D1FB75000044BBC /* OperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
+		B5DA59552D1FB75000044BBC /* OperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
+		B5DA59662D1FB7B500044BBC /* MJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		B5DA59672D1FB7B500044BBC /* MJExtensionConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		B5DA59682D1FB7B500044BBC /* MJExtensionConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		B5DA59692D1FB7B500044BBC /* MJFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		B5DA596A2D1FB7B500044BBC /* MJFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		B5DA596B2D1FB7B500044BBC /* MJProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		B5DA596C2D1FB7B500044BBC /* MJProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		B5DA596D2D1FB7B500044BBC /* MJPropertyKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		B5DA596E2D1FB7B500044BBC /* MJPropertyKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		B5DA596F2D1FB7B500044BBC /* MJPropertyType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		B5DA59702D1FB7B500044BBC /* MJPropertyType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		B5DA59712D1FB7B500044BBC /* NSObject+MJClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		B5DA59722D1FB7B500044BBC /* NSObject+MJClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		B5DA59732D1FB7B500044BBC /* NSObject+MJCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		B5DA59742D1FB7B500044BBC /* NSObject+MJCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		B5DA59752D1FB7B500044BBC /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		B5DA59762D1FB7B500044BBC /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		B5DA59772D1FB7B500044BBC /* NSObject+MJProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		B5DA59782D1FB7B500044BBC /* NSObject+MJProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		B5DA59792D1FB7B500044BBC /* NSString+MJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		B5DA597A2D1FB7B500044BBC /* NSString+MJExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		B5DA597C2D1FB7B500044BBC /* NSObject+YYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		B5DA597D2D1FB7B500044BBC /* NSObject+YYModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		B5DA597E2D1FB7B500044BBC /* YYClassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		B5DA597F2D1FB7B500044BBC /* YYClassInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		B5DA59802D1FB7B500044BBC /* YYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		D2BE8B383584EFF0F89170B1 /* Pods-Learning-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning-OC.debug.xcconfig"; path = "Target Support Files/Pods-Learning-OC/Pods-Learning-OC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5DA58B32D1FB66E00044BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92420DC65D3EF6050CF7041A /* Pods_Learning_OC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DA58D12D1FB66F00044BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CEFF1C4C00FDE7D5EED1D9 /* Pods_Learning_OCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DA58DB2D1FB66F00044BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFBC47E4A2B90A6C06E6D2 /* Pods_Learning_OC_Learning_OCUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C61D241B4B41F71DE961A49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2BE8B383584EFF0F89170B1 /* Pods-Learning-OC.debug.xcconfig */,
+				658A9D958063EE7634CE6761 /* Pods-Learning-OC.release.xcconfig */,
+				5CA42FE4B0489DD984B6B7E3 /* Pods-Learning-OC-Learning-OCUITests.debug.xcconfig */,
+				17BC5628A10E407E801C3D6D /* Pods-Learning-OC-Learning-OCUITests.release.xcconfig */,
+				831D42D6066E087666C61B31 /* Pods-Learning-OCTests.debug.xcconfig */,
+				6511BD487A3C7E269C604B80 /* Pods-Learning-OCTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		B5DA58AD2D1FB66E00044BBC = {
+			isa = PBXGroup;
+			children = (
+				B5DA59262D1FB6D200044BBC /* Learning-OC */,
+				B5DA59112D1FB6D200044BBC /* Learning-OCTests */,
+				B5DA59152D1FB6D200044BBC /* Learning-OCUITests */,
+				B5DA58B72D1FB66E00044BBC /* Products */,
+				3C61D241B4B41F71DE961A49 /* Pods */,
+				D6C84FE95B80AD8E51D1C0A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5DA58B72D1FB66E00044BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA58B62D1FB66E00044BBC /* Learning-OC.app */,
+				B5DA58D42D1FB66F00044BBC /* Learning-OCTests.xctest */,
+				B5DA58DE2D1FB66F00044BBC /* Learning-OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5DA59112D1FB6D200044BBC /* Learning-OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA59102D1FB6D200044BBC /* Learning_OCTests.m */,
+			);
+			path = "Learning-OCTests";
+			sourceTree = "<group>";
+		};
+		B5DA59152D1FB6D200044BBC /* Learning-OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA59132D1FB6D200044BBC /* Learning_OCUITests.m */,
+				B5DA59142D1FB6D200044BBC /* Learning_OCUITestsLaunchTests.m */,
+			);
+			path = "Learning-OCUITests";
+			sourceTree = "<group>";
+		};
+		B5DA59262D1FB6D200044BBC /* Learning-OC */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA59822D1FB7B500044BBC /* Third */,
+				B5DA593C2D1FB75000044BBC /* VC */,
+				B5DA594F2D1FB75000044BBC /* Runtime */,
+				B5DA59562D1FB75000044BBC /* Operation */,
+				B5DA59182D1FB6D200044BBC /* AppDelegate.h */,
+				B5DA59192D1FB6D200044BBC /* AppDelegate.m */,
+				B5DA591A2D1FB6D200044BBC /* Assets.xcassets */,
+				B5DA591B2D1FB6D200044BBC /* Info.plist */,
+				B5DA591D2D1FB6D200044BBC /* LaunchScreen.storyboard */,
+				B5DA591E2D1FB6D200044BBC /* Learning_OC.xcdatamodeld */,
+				B5DA591F2D1FB6D200044BBC /* main.m */,
+				B5DA59212D1FB6D200044BBC /* Main.storyboard */,
+				B5DA59222D1FB6D200044BBC /* SceneDelegate.h */,
+				B5DA59232D1FB6D200044BBC /* SceneDelegate.m */,
+				B5DA594D2D1FB75000044BBC /* ViewController.h */,
+				B5DA594E2D1FB75000044BBC /* ViewController.m */,
+			);
+			path = "Learning-OC";
+			sourceTree = "<group>";
+		};
+		B5DA593C2D1FB75000044BBC /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA59372D1FB75000044BBC /* SecondViewController.h */,
+				B5DA59382D1FB75000044BBC /* SecondViewController.m */,
+				B5DA59392D1FB75000044BBC /* SecondViewController.xib */,
+				B5DA593A2D1FB75000044BBC /* ThirdViewController.h */,
+				B5DA593B2D1FB75000044BBC /* ThirdViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B5DA594F2D1FB75000044BBC /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA593D2D1FB75000044BBC /* CommonProtocol.h */,
+				B5DA593E2D1FB75000044BBC /* CommonProtocol.m */,
+				B5DA593F2D1FB75000044BBC /* CustomButton.h */,
+				B5DA59402D1FB75000044BBC /* CustomButton.m */,
+				B5DA59412D1FB75000044BBC /* FirstClass.h */,
+				B5DA59422D1FB75000044BBC /* FirstClass.m */,
+				B5DA59432D1FB75000044BBC /* FirstSubClass.h */,
+				B5DA59442D1FB75000044BBC /* FirstSubClass.m */,
+				B5DA59452D1FB75000044BBC /* NSObject+FirstClass.h */,
+				B5DA59462D1FB75000044BBC /* NSObject+FirstClass.m */,
+				B5DA59472D1FB75000044BBC /* SecondClass.h */,
+				B5DA59482D1FB75000044BBC /* SecondClass.m */,
+				B5DA59492D1FB75000044BBC /* TableViewCell.h */,
+				B5DA594A2D1FB75000044BBC /* TableViewCell.m */,
+				B5DA594B2D1FB75000044BBC /* UIButton+EdgeInset.h */,
+				B5DA594C2D1FB75000044BBC /* UIButton+EdgeInset.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		B5DA59562D1FB75000044BBC /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA59502D1FB75000044BBC /* GetPathsOperation.h */,
+				B5DA59512D1FB75000044BBC /* GetPathsOperation.m */,
+				B5DA59522D1FB75000044BBC /* LoadOperation.h */,
+				B5DA59532D1FB75000044BBC /* LoadOperation.m */,
+				B5DA59542D1FB75000044BBC /* OperationViewController.h */,
+				B5DA59552D1FB75000044BBC /* OperationViewController.m */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		B5DA597B2D1FB7B500044BBC /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA59662D1FB7B500044BBC /* MJExtension.h */,
+				B5DA59672D1FB7B500044BBC /* MJExtensionConst.h */,
+				B5DA59682D1FB7B500044BBC /* MJExtensionConst.m */,
+				B5DA59692D1FB7B500044BBC /* MJFoundation.h */,
+				B5DA596A2D1FB7B500044BBC /* MJFoundation.m */,
+				B5DA596B2D1FB7B500044BBC /* MJProperty.h */,
+				B5DA596C2D1FB7B500044BBC /* MJProperty.m */,
+				B5DA596D2D1FB7B500044BBC /* MJPropertyKey.h */,
+				B5DA596E2D1FB7B500044BBC /* MJPropertyKey.m */,
+				B5DA596F2D1FB7B500044BBC /* MJPropertyType.h */,
+				B5DA59702D1FB7B500044BBC /* MJPropertyType.m */,
+				B5DA59712D1FB7B500044BBC /* NSObject+MJClass.h */,
+				B5DA59722D1FB7B500044BBC /* NSObject+MJClass.m */,
+				B5DA59732D1FB7B500044BBC /* NSObject+MJCoding.h */,
+				B5DA59742D1FB7B500044BBC /* NSObject+MJCoding.m */,
+				B5DA59752D1FB7B500044BBC /* NSObject+MJKeyValue.h */,
+				B5DA59762D1FB7B500044BBC /* NSObject+MJKeyValue.m */,
+				B5DA59772D1FB7B500044BBC /* NSObject+MJProperty.h */,
+				B5DA59782D1FB7B500044BBC /* NSObject+MJProperty.m */,
+				B5DA59792D1FB7B500044BBC /* NSString+MJExtension.h */,
+				B5DA597A2D1FB7B500044BBC /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		B5DA59812D1FB7B500044BBC /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA597C2D1FB7B500044BBC /* NSObject+YYModel.h */,
+				B5DA597D2D1FB7B500044BBC /* NSObject+YYModel.m */,
+				B5DA597E2D1FB7B500044BBC /* YYClassInfo.h */,
+				B5DA597F2D1FB7B500044BBC /* YYClassInfo.m */,
+				B5DA59802D1FB7B500044BBC /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		B5DA59822D1FB7B500044BBC /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA597B2D1FB7B500044BBC /* MJExtension */,
+				B5DA59812D1FB7B500044BBC /* YYModel */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		D6C84FE95B80AD8E51D1C0A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19F132E8FF432CB8603248FF /* Pods_Learning_OC.framework */,
+				06211FF28BBADCF88D84DF59 /* Pods_Learning_OC_Learning_OCUITests.framework */,
+				432DDC8E4BC66124C31D6A6C /* Pods_Learning_OCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5DA58B52D1FB66E00044BBC /* Learning-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DA58E72D1FB66F00044BBC /* Build configuration list for PBXNativeTarget "Learning-OC" */;
+			buildPhases = (
+				603D5E967A151B32FC364082 /* [CP] Check Pods Manifest.lock */,
+				B5DA58B22D1FB66E00044BBC /* Sources */,
+				B5DA58B32D1FB66E00044BBC /* Frameworks */,
+				B5DA58B42D1FB66E00044BBC /* Resources */,
+				C484258CD9FCAA039562507C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learning-OC";
+			productName = "Learning-OC";
+			productReference = B5DA58B62D1FB66E00044BBC /* Learning-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5DA58D32D1FB66F00044BBC /* Learning-OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DA58EC2D1FB66F00044BBC /* Build configuration list for PBXNativeTarget "Learning-OCTests" */;
+			buildPhases = (
+				09D807AE7CF4FBC4021B8E13 /* [CP] Check Pods Manifest.lock */,
+				B5DA58D02D1FB66F00044BBC /* Sources */,
+				B5DA58D12D1FB66F00044BBC /* Frameworks */,
+				B5DA58D22D1FB66F00044BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DA58D62D1FB66F00044BBC /* PBXTargetDependency */,
+			);
+			name = "Learning-OCTests";
+			productName = "Learning-OCTests";
+			productReference = B5DA58D42D1FB66F00044BBC /* Learning-OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5DA58DD2D1FB66F00044BBC /* Learning-OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DA58EF2D1FB66F00044BBC /* Build configuration list for PBXNativeTarget "Learning-OCUITests" */;
+			buildPhases = (
+				39C5374A835B6E05BAEE5765 /* [CP] Check Pods Manifest.lock */,
+				B5DA58DA2D1FB66F00044BBC /* Sources */,
+				B5DA58DB2D1FB66F00044BBC /* Frameworks */,
+				B5DA58DC2D1FB66F00044BBC /* Resources */,
+				ECEC99E95C1F17FB31E2C765 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DA58E02D1FB66F00044BBC /* PBXTargetDependency */,
+			);
+			name = "Learning-OCUITests";
+			productName = "Learning-OCUITests";
+			productReference = B5DA58DE2D1FB66F00044BBC /* Learning-OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5DA58AE2D1FB66E00044BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B5DA58B52D1FB66E00044BBC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B5DA58D32D1FB66F00044BBC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B5DA58B52D1FB66E00044BBC;
+					};
+					B5DA58DD2D1FB66F00044BBC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B5DA58B52D1FB66E00044BBC;
+					};
+				};
+			};
+			buildConfigurationList = B5DA58B12D1FB66E00044BBC /* Build configuration list for PBXProject "Learning-OC" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5DA58AD2D1FB66E00044BBC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B5DA58B72D1FB66E00044BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5DA58B52D1FB66E00044BBC /* Learning-OC */,
+				B5DA58D32D1FB66F00044BBC /* Learning-OCTests */,
+				B5DA58DD2D1FB66F00044BBC /* Learning-OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5DA58B42D1FB66E00044BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DA59572D1FB75000044BBC /* SecondViewController.xib in Resources */,
+				B5DA592D2D1FB6D200044BBC /* Assets.xcassets in Resources */,
+				B5DA592F2D1FB6D200044BBC /* LaunchScreen.storyboard in Resources */,
+				B5DA59302D1FB6D200044BBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DA58D22D1FB66F00044BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DA58DC2D1FB66F00044BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09D807AE7CF4FBC4021B8E13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Learning-OCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39C5374A835B6E05BAEE5765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Learning-OC-Learning-OCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		603D5E967A151B32FC364082 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Learning-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C484258CD9FCAA039562507C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Learning-OC/Pods-Learning-OC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Learning-OC/Pods-Learning-OC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Learning-OC/Pods-Learning-OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECEC99E95C1F17FB31E2C765 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Learning-OC-Learning-OCUITests/Pods-Learning-OC-Learning-OCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Learning-OC-Learning-OCUITests/Pods-Learning-OC-Learning-OCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Learning-OC-Learning-OCUITests/Pods-Learning-OC-Learning-OCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5DA58B22D1FB66E00044BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DA59282D1FB6D200044BBC /* AppDelegate.m in Sources */,
+				B5DA59292D1FB6D200044BBC /* Learning_OC.xcdatamodeld in Sources */,
+				B5DA592A2D1FB6D200044BBC /* main.m in Sources */,
+				B5DA592B2D1FB6D200044BBC /* SceneDelegate.m in Sources */,
+				B5DA59582D1FB75000044BBC /* FirstSubClass.m in Sources */,
+				B5DA59592D1FB75000044BBC /* SecondClass.m in Sources */,
+				B5DA595A2D1FB75000044BBC /* TableViewCell.m in Sources */,
+				B5DA595B2D1FB75000044BBC /* GetPathsOperation.m in Sources */,
+				B5DA595C2D1FB75000044BBC /* CustomButton.m in Sources */,
+				B5DA595D2D1FB75000044BBC /* LoadOperation.m in Sources */,
+				B5DA595E2D1FB75000044BBC /* ViewController.m in Sources */,
+				B5DA595F2D1FB75000044BBC /* OperationViewController.m in Sources */,
+				B5DA59602D1FB75000044BBC /* SecondViewController.m in Sources */,
+				B5DA59612D1FB75000044BBC /* UIButton+EdgeInset.m in Sources */,
+				B5DA59622D1FB75000044BBC /* ThirdViewController.m in Sources */,
+				B5DA59832D1FB7B500044BBC /* MJPropertyKey.m in Sources */,
+				B5DA59842D1FB7B500044BBC /* MJFoundation.m in Sources */,
+				B5DA59852D1FB7B500044BBC /* NSObject+MJKeyValue.m in Sources */,
+				B5DA59862D1FB7B500044BBC /* NSObject+YYModel.m in Sources */,
+				B5DA59872D1FB7B500044BBC /* MJProperty.m in Sources */,
+				B5DA59882D1FB7B500044BBC /* MJPropertyType.m in Sources */,
+				B5DA59892D1FB7B500044BBC /* NSObject+MJCoding.m in Sources */,
+				B5DA598A2D1FB7B500044BBC /* NSObject+MJProperty.m in Sources */,
+				B5DA598B2D1FB7B500044BBC /* NSObject+MJClass.m in Sources */,
+				B5DA598C2D1FB7B500044BBC /* NSString+MJExtension.m in Sources */,
+				B5DA598D2D1FB7B500044BBC /* MJExtensionConst.m in Sources */,
+				B5DA598E2D1FB7B500044BBC /* YYClassInfo.m in Sources */,
+				B5DA59632D1FB75000044BBC /* CommonProtocol.m in Sources */,
+				B5DA59642D1FB75000044BBC /* FirstClass.m in Sources */,
+				B5DA59652D1FB75000044BBC /* NSObject+FirstClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DA58D02D1FB66F00044BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DA59122D1FB6D200044BBC /* Learning_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DA58DA2D1FB66F00044BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DA59162D1FB6D200044BBC /* Learning_OCUITests.m in Sources */,
+				B5DA59172D1FB6D200044BBC /* Learning_OCUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5DA58D62D1FB66F00044BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5DA58B52D1FB66E00044BBC /* Learning-OC */;
+			targetProxy = B5DA58D52D1FB66F00044BBC /* PBXContainerItemProxy */;
+		};
+		B5DA58E02D1FB66F00044BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5DA58B52D1FB66E00044BBC /* Learning-OC */;
+			targetProxy = B5DA58DF2D1FB66F00044BBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5DA591D2D1FB6D200044BBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DA591C2D1FB6D200044BBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B5DA59212D1FB6D200044BBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DA59202D1FB6D200044BBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5DA58E82D1FB66F00044BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2BE8B383584EFF0F89170B1 /* Pods-Learning-OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE473MJ53W;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learning-OC/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xxx.Learning-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5DA58E92D1FB66F00044BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658A9D958063EE7634CE6761 /* Pods-Learning-OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE473MJ53W;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learning-OC/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xxx.Learning-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5DA58EA2D1FB66F00044BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5DA58EB2D1FB66F00044BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5DA58ED2D1FB66F00044BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831D42D6066E087666C61B31 /* Pods-Learning-OCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE473MJ53W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xxx.Learning-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning-OC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Learning-OC";
+			};
+			name = Debug;
+		};
+		B5DA58EE2D1FB66F00044BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6511BD487A3C7E269C604B80 /* Pods-Learning-OCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE473MJ53W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xxx.Learning-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning-OC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Learning-OC";
+			};
+			name = Release;
+		};
+		B5DA58F02D1FB66F00044BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA42FE4B0489DD984B6B7E3 /* Pods-Learning-OC-Learning-OCUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE473MJ53W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xxx.Learning-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Learning-OC";
+			};
+			name = Debug;
+		};
+		B5DA58F12D1FB66F00044BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BC5628A10E407E801C3D6D /* Pods-Learning-OC-Learning-OCUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE473MJ53W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xxx.Learning-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Learning-OC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5DA58B12D1FB66E00044BBC /* Build configuration list for PBXProject "Learning-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DA58EA2D1FB66F00044BBC /* Debug */,
+				B5DA58EB2D1FB66F00044BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DA58E72D1FB66F00044BBC /* Build configuration list for PBXNativeTarget "Learning-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DA58E82D1FB66F00044BBC /* Debug */,
+				B5DA58E92D1FB66F00044BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DA58EC2D1FB66F00044BBC /* Build configuration list for PBXNativeTarget "Learning-OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DA58ED2D1FB66F00044BBC /* Debug */,
+				B5DA58EE2D1FB66F00044BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DA58EF2D1FB66F00044BBC /* Build configuration list for PBXNativeTarget "Learning-OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DA58F02D1FB66F00044BBC /* Debug */,
+				B5DA58F12D1FB66F00044BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5DA591E2D1FB6D200044BBC /* Learning_OC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5DA59272D1FB6D200044BBC /* Learning_OC.xcdatamodel */,
+			);
+			currentVersion = B5DA59272D1FB6D200044BBC /* Learning_OC.xcdatamodel */;
+			path = Learning_OC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5DA58AE2D1FB66E00044BBC /* Project object */;
+}
