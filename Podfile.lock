@@ -1,0 +1,150 @@
+PODS:
+  - Alamofire (5.10.2)
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.9)
+  - RxCocoa (6.8.0):
+    - RxRelay (= 6.8.0)
+    - RxSwift (= 6.8.0)
+  - RxRelay (6.8.0):
+    - RxSwift (= 6.8.0)
+  - RxSwift (6.8.0)
+  - SJBaseVideoPlayer (3.7.7.1):
+    - Masonry
+    - SJBaseVideoPlayer/AVPlayer (= 3.7.7.1)
+    - SJBaseVideoPlayer/Common (= 3.7.7.1)
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/AVPlayer (3.7.7.1):
+    - Masonry
+    - SJBaseVideoPlayer/Common
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/Common (3.7.7.1):
+    - Masonry
+    - SJBaseVideoPlayer/ResourceLoader
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/ResourceLoader (3.7.7.1):
+    - Masonry
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJUIKit (0.0.0.59):
+    - SJUIKit/AsyncLoad (= 0.0.0.59)
+    - SJUIKit/AttributesFactory (= 0.0.0.59)
+    - SJUIKit/Base (= 0.0.0.59)
+    - SJUIKit/CornerMask (= 0.0.0.59)
+    - SJUIKit/Date (= 0.0.0.59)
+    - SJUIKit/ObserverHelper (= 0.0.0.59)
+    - SJUIKit/Other (= 0.0.0.59)
+    - SJUIKit/PageViewController (= 0.0.0.59)
+    - SJUIKit/Photo (= 0.0.0.59)
+    - SJUIKit/PlaybackListController (= 0.0.0.59)
+    - SJUIKit/Queues (= 0.0.0.59)
+    - SJUIKit/Refresh (= 0.0.0.59)
+    - SJUIKit/SQLite3 (= 0.0.0.59)
+    - SJUIKit/Thread (= 0.0.0.59)
+    - SJUIKit/UIMaker (= 0.0.0.59)
+  - SJUIKit/AsyncLoad (0.0.0.59):
+    - SJUIKit/CornerMask
+  - SJUIKit/AttributesFactory (0.0.0.59):
+    - SJUIKit/AttributesFactory/Deprecated (= 0.0.0.59)
+    - SJUIKit/AttributesFactory/UIKitText (= 0.0.0.59)
+  - SJUIKit/AttributesFactory/Deprecated (0.0.0.59)
+  - SJUIKit/AttributesFactory/UIKitText (0.0.0.59)
+  - SJUIKit/Base (0.0.0.59):
+    - SJUIKit/Base/Core (= 0.0.0.59)
+    - SJUIKit/ObserverHelper
+  - SJUIKit/Base/Core (0.0.0.59):
+    - SJUIKit/ObserverHelper
+  - SJUIKit/CornerMask (0.0.0.59):
+    - SJUIKit/ObserverHelper
+  - SJUIKit/Date (0.0.0.59)
+  - SJUIKit/ObserverHelper (0.0.0.59)
+  - SJUIKit/Other (0.0.0.59):
+    - SJUIKit/Date
+  - SJUIKit/PageViewController (0.0.0.59):
+    - SJUIKit/PageViewController/Core (= 0.0.0.59)
+  - SJUIKit/PageViewController/Core (0.0.0.59)
+  - SJUIKit/Photo (0.0.0.59)
+  - SJUIKit/PlaybackListController (0.0.0.59)
+  - SJUIKit/Queues (0.0.0.59)
+  - SJUIKit/Refresh (0.0.0.59):
+    - MJRefresh
+  - SJUIKit/SQLite3 (0.0.0.59):
+    - SJUIKit/SQLite3/Core (= 0.0.0.59)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.59)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.59):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.59):
+    - YYModel
+  - SJUIKit/Thread (0.0.0.59)
+  - SJUIKit/UIMaker (0.0.0.59):
+    - SJUIKit/UIMaker/Core (= 0.0.0.59)
+  - SJUIKit/UIMaker/Core (0.0.0.59)
+  - SJVideoPlayer (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJVideoPlayer/Common (= 3.4.3)
+    - SJVideoPlayer/ControlLayers (= 3.4.3)
+    - SJVideoPlayer/ResourceLoader (= 3.4.3)
+  - SJVideoPlayer/Common (3.4.3):
+    - Masonry
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJUIKit/AttributesFactory
+    - SJVideoPlayer/ResourceLoader
+  - SJVideoPlayer/ControlLayers (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJVideoPlayer/Common
+  - SJVideoPlayer/ResourceLoader (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+  - SnapKit (5.7.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - MJRefresh
+  - RxCocoa (= 6.8.0)
+  - RxSwift (= 6.8.0)
+  - SJUIKit
+  - SJVideoPlayer
+  - SnapKit (~> 5.7.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Masonry
+    - MJRefresh
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SJBaseVideoPlayer
+    - SJUIKit
+    - SJVideoPlayer
+    - SnapKit
+    - YYModel
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
+  RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
+  RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
+  SJBaseVideoPlayer: b3122de12225b27b71bd9a8a1f08f4dcf2f4e5ec
+  SJUIKit: a40111941e408cc17d4c1c23495aa92999e814b0
+  SJVideoPlayer: 4f09814f58522e0975cb2dccfda925f6c8643467
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 64abe4b14ebc09b036450b1e2c1132ad5445f701
+
+COCOAPODS: 1.16.2
